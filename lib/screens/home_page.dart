@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Pokémon Scanner!!!!!'),
+        title: const Text('Pokémon Scanner'),
       ),
       body: _getSelectedPage(_selectedIndex), // Display the selected page
       bottomNavigationBar: BottomNavigationBar(
